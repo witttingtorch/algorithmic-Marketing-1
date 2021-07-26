@@ -1,6 +1,6 @@
 library(recommenderlab)
 library(data.table)
-Food <- read.csv("C:/Users/Liam/Desktop/OFFICE/Food_Reviews.csv",stringsAsFactors=FALSE)
+Food <- read.csv(":.filepath/Food_Reviews.csv",stringsAsFactors=FALSE)
 View(Food)
 Food$Score <- as.factor(Food$Score)
 str(Food)
